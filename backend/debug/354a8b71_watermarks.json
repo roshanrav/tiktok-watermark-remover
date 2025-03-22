@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": 0,
+    "x": 19,
+    "y": 2,
+    "width": 57,
+    "height": 98
+  },
+  {
+    "timestamp": 1,
+    "x": 18,
+    "y": 2,
+    "width": 66,
+    "height": 98
+  },
+  {
+    "timestamp": 2,
+    "x": 18,
+    "y": 2,
+    "width": 68,
+    "height": 97
+  },
+  {
+    "timestamp": 3,
+    "x": 18,
+    "y": 2,
+    "width": 58,
+    "height": 96
+  },
+  {
+    "timestamp": 4,
+    "x": 18,
+    "y": 2,
+    "width": 58,
+    "height": 97
+  },
+  {
+    "timestamp": 5,
+    "x": 506,
+    "y": 470,
+    "width": 67,
+    "height": 98
+  },
+  {
+    "timestamp": 6,
+    "x": 505,
+    "y": 469,
+    "width": 59,
+    "height": 92
+  },
+  {
+    "timestamp": 7,
+    "x": 243,
+    "y": 128,
+    "width": 107,
+    "height": 138
+  },
+  {
+    "timestamp": 8,
+    "x": 409,
+    "y": 353,
+    "width": 57,
+    "height": 86
+  },
+  {
+    "timestamp": 8,
+    "x": 245,
+    "y": 127,
+    "width": 106,
+    "height": 140
+  },
+  {
+    "timestamp": 9,
+    "x": 409,
+    "y": 353,
+    "width": 57,
+    "height": 86
+  },
+  {
+    "timestamp": 9,
+    "x": 243,
+    "y": 129,
+    "width": 105,
+    "height": 138
+  }
+]

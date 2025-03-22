@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "expo-font"
+  ],
+  "expo": {
+    "extra": {
+      "API_URL": "http://10.0.0.235:5001"
+    }
+  }
+}

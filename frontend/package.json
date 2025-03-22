@@ -1,0 +1,29 @@
+{
+  "name": "TikTokWatermarkRemover",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/native": "^7.0.17",
+    "@react-navigation/stack": "^7.2.1",
+    "expo": "~52.0.3",
+    "expo-av": "~15.0.2",
+    "expo-document-picker": "~13.0.3",
+    "expo-font": "~13.0.4",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-animatable": "^1.4.0",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-paper": "^5.13.1",
+    "react-native-picker-select": "^9.3.1",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-wheel-picker-expo": "^0.5.4",
+    "expo-constants": "~17.0.8"
+  }
+}
