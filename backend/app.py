@@ -320,50 +320,6 @@ def remove_moving_watermarks(input_path, output_path, watermark_regions, debug_i
 
     return True
 
-# def remove_moving_watermarks(input_path, output_path, watermark_regions, debug_id):
-#     if not watermark_regions:
-#         logger.warning("No watermarks to remove, copying original video")
-#         subprocess.run(['cp', input_path, output_path])
-#         return True
-
-#     logger.info(f"Removing watermarks in a single pass using combined filters for {len(watermark_regions)} regions")
-
-#     # Build the filter expression
-#     filter_exprs = []
-#     for region in watermark_regions:
-#         x = region['x']
-#         y = region['y']
-#         w = region['width']
-#         h = region['height']
-#         timestamp = region['timestamp']
-#         start_time = max(0, timestamp - 0.5)
-#         end_time = timestamp + 1.5
-
-#         filter_exprs.append(
-#             f"delogo=x={x}:y={y}:w={w}:h={h}:enable='between(t,{start_time},{end_time})'"
-#         )
-
-#     filter_chain = ",".join(filter_exprs)
-
-#     command = [
-#         'ffmpeg',
-#         '-i', input_path,
-#         '-vf', filter_chain,
-#         '-c:a', 'copy',
-#         output_path
-#     ]
-
-
-#     logger.info(f"Running combined FFmpeg command:\n{' '.join(command)}")
-
-#     result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-#     if result.returncode != 0:
-#         logger.error("FFmpeg error:\n" + result.stderr.decode())
-#         return False
-
-#     return True
-
 
 def remove_moving_watermarks_inpaint(input_path, output_path, watermark_regions, debug_id):
     logger.info("Starting inpainting based watermark removal")
